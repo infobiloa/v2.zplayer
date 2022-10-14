@@ -26,7 +26,7 @@ let getbase=()=>{
 
 
 
-let openfluid=()=> { window.open('fluid.html?id='+base)}
+let openfluid=()=> { window.open('https://infobiloa.github.io/v2.zplayer/fluid.html?id='+base)}
 
 
 let pmsg = 'Copy Embed Code' ;
@@ -35,7 +35,7 @@ let pmsg = 'Copy Embed Code' ;
 let embedfluid=()=> {
   prompt(pmsg,`<iframe width="560" height="315" 
 scrolling="no"
-src="fluid.html?id=${base}" 
+src="https://infobiloa.github.io/v2.zplayer/fluid.html?id=${base}" 
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
 gyroscope; picture-in-picture" allowfullscreen>
 </iframe>`)
@@ -45,7 +45,7 @@ gyroscope; picture-in-picture" allowfullscreen>
 
 
 let iframe=()=> {
-    s('fluid').src='fluid.html?id='+base;
+    s('fluid').src='https://infobiloa.github.io/v2.zplayer/fluid.html?id='+base;
   
   
 }
