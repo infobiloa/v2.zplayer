@@ -3,7 +3,7 @@ function getparam(a,e){return e||(e=window.location.href),new URL(e).searchParam
 let s=a=>document.getElementById(a);
 
 function getIdFromUrl(url) { return url.match(/[-\w]{25,}/); }
-let apikey = 'AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw';
+let apikey = 'AIzaSyB6C5-0MaMFwK8tYQ8HDMUBmz9m_PCjI-s';
 
 let get=()=>{
   getbase();
