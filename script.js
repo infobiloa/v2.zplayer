@@ -33,7 +33,7 @@ let pmsg = 'Copy Embed Code' ;
 //Player Embedders
 
 let embedfluid=()=> {
-  prompt(pmsg,`<iframe width="100%" height="100%" 
+  prompt(pmsg,`<iframe width="560" height="315" 
 scrolling="no"
 src="https://infobiloa.github.io/v2.zplayer/fluid.html?id=${base}" 
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
